@@ -1,0 +1,96 @@
+html {
+    box-sizing: border-box;
+}
+
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+        body {
+            position: relative;
+            background-color: #4b4b4b;
+            font-family: 'Lato';
+            color: #fff;
+            font-size: 20px;
+        }
+
+            .body-div {
+                background-image: url('../Images/background-wallpaper.jpg');
+                width: 80%;
+                height: 100%;
+                margin-left: 10%;
+                font-weight: 300;
+                padding-bottom: 70px;
+            }
+
+                .instruction h1 {
+                    font-size: 110%;
+                    margin-top: 150px;
+                    display: inline-block;
+                    width: 90%;
+                    text-align: center;
+                    margin-left: 5%;
+                    font-weight: 100;
+                    margin-bottom: 50px;
+                }
+
+                .quiz-type-link {
+                    color: #fff;
+                    text-decoration: none;
+                }
+
+                    .quiz-type {
+                        display: block;
+                        width: 80%;
+                        margin-left: 10%;
+                        margin-right: 10%;
+                        height: 250px;
+                        border-radius: 50px;
+                        padding-top: 40px;
+                        border: 3px solid #fff;
+                        margin-bottom: 30px;
+                        transition: transform 0.6s;
+                        padding-left: 10px;
+                        padding-right: 10px;
+                    }
+
+                        .quiz-type:hover {
+                            transform: scale(1.05);
+                        }
+
+                        .space {
+                            background-image: url("../Images/Space_img.jpg");
+                            background-size: cover;
+                        }
+
+                        .technology {
+                            background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../Images/technology-img.jfif");
+                            background-size: cover;
+                        }
+
+                        .sports {
+                            background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../Images/football-kicking-img.jfif");
+                            background-size: cover;
+                        }
+
+                        .science {
+                            background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../Images/science-img.jfif");
+                            background-size: cover;
+                        }
+
+                        .quiz-type .title {
+                            font-weight: 700;
+                            display: block;
+                            font-size: 200%;
+                            text-align: center;
+                        }
+
+                        .quiz-type .quiz-type-abt {
+                            display: block;
+                            font-weight: 400;
+                            margin-top: 50px;
+                            font-size: 120%;
+                            text-align: center;
+                        }

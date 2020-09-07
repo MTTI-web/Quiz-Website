@@ -1,0 +1,31 @@
+@media only screen and (max-width: 500px) {
+    .body-div {
+        width: 100%;
+        margin-left: 0;
+    }
+    .heading {
+        font-size: 200%;
+    }
+    .title-short-name {
+        font-size: 120%;
+    }
+    .welcome-txt {
+        padding: 0 15px;
+    }
+    .about-us h2 {
+        width: 90%;
+        margin-left: 5%;
+    }
+    .about-us p {
+        width: 90%;
+        margin-left: 5%;
+    }
+}
+
+@media only screen and (max-width: 430px) {
+    header {
+        /* display: flex; */
+        clear: both;
+        height: auto;
+    }
+}

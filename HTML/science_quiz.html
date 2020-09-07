@@ -1,0 +1,76 @@
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>
+            Science Quiz - Ultimate Quiz Centre
+        </title>
+        <link rel="stylesheet" type="text/css" href="../CSS/all_quiz_style.css">
+        <link rel="stylesheet" type="text/css" href="../CSS/all_page_navigation_style.css">
+        <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;1,400&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+            <img src="../Images/Ultimate Quiz Centre Logo.png" class="logo-img">
+            <nav>
+                <form>
+                    <label class="check-label" id="check-icon" for="check">
+                        <ion-icon name="menu-outline"></ion-icon>
+                    </label>
+                    <input type="checkbox" id="check" unchecked>
+                    <ul class="nav-ul">
+                        <a href="../HTML/sign_up_form.html" class="sign-up-btn-link"><li class="sign-li"><div class="sign-up-btn">Sign up</div></li></a>
+                        <a href="#" class="sign-up-btn-link"><li class="sign-li"><div class="sign-up-btn">Sign in</div></li></a>
+                        <a href="../HTML/index.html" class="nav-btns"><li>Home</li></a>
+                        <a href="../HTML/quiz_select.html" class="nav-btns" target="_blank"><li>Quiz now</li></a>
+                        <a href="#" class="nav-btns"><li>Donate</li></a>
+                    </ul>
+                </form>
+            </nav>
+        </header>
+        <div class="quiz">
+            <div class="quiz-name">Science Quiz</div>
+            <div class="scoreTotal hide">
+                <div class="scoreCircle">
+                    <p class="scoreNumber">5</p>
+                    <p>5</p>
+                </div>
+                <div class="scoreBoard">
+                    You got some marks.
+                </div>
+            </div>
+            <div class="button start">Start</div>
+            <div class="button restart hide">Restart</div>
+            <a href="../HTML/quiz_select.html" class="returnButton"><div class="button back hide">Back</div></a>
+            <div class="question hide">
+                <p class="question-txt">Question</p>
+                <div class="options">
+                    <div class="option choice1 neutral">Option 1</div>
+                    <div class="option choice2 neutral">Option 2</div>
+                    <div class="option choice3 neutral">Option 3</div>
+                    <div class="option choice4 neutral">Option 4</div>
+                </div>
+                <div class="checkAnswerMessage incorrectResponseMessage hide">Oh no! You did it wrong.</div>
+                <div class="checkAnswerMessage correctResponseMessage hide">You did it right!</div>
+                <div class="button next hide">Next</div>
+            </div>
+        </div>
+        <footer>
+            <div class="social-links">
+                <div class="social-link">
+                    <ion-icon name="logo-facebook"></ion-icon>
+                </div>
+                <div class="social-link">
+                    <ion-icon name="logo-instagram"></ion-icon>
+                </div>
+                <div class="social-link">
+                    <ion-icon name="logo-twitter"></ion-icon>
+                </div>
+            </div>
+            <div class="copytight-message">
+                &copy; Copyright Ultimate Quiz Centre
+            </div>
+        </footer>
+        <script src="../JS/science_quiz_js.js"></script>
+        <script src="https://unpkg.com/ionicons@5.1.2/dist/ionicons.js"></script>
+    </body>
+</html>

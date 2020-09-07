@@ -1,0 +1,70 @@
+html {
+    box-sizing: border-box;
+}
+
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+        body {
+            position: relative;
+            background-color: #4b4b4b;
+            font-family: 'Lato';
+            color: #fff;
+            font-size: 20px;
+        }
+
+            .body-div {
+                background-color: #292828;
+                width: 80%;
+                height: 100%;
+                margin-left: 10%;
+                font-weight: 300;
+                padding-bottom: 50px;
+            }
+
+            .heading {
+                margin-top: 150px;
+                font-size: 300%;
+                display: inline-block;
+                width: 90%;
+                text-align: center;
+                margin-left: 5%;
+                font-weight: 100;
+            }
+
+            .title-short-name {
+                display: block;
+                font-weight: 700;
+                text-align: center;
+                font-size: 190%;
+                margin-top: 20px;
+            }
+
+            .welcome-txt {
+                display: block;
+                margin-top: 50px;
+                margin-bottom: 30px;
+                display: block;
+                text-align: center;
+                font-size: 100%;
+                font-weight: 400;
+            }
+
+            .about-us h2 {
+                text-align: center;
+                margin-top: 50px;
+                border-bottom: 2px solid #fff;
+                width: 70%;
+                margin-left: 15%;
+                padding-bottom: 20px;
+                margin-bottom: 40px;
+            }
+
+            .about-us p {
+                width: 70%;
+                margin-left: 15%;
+                text-align: justify;
+            }
